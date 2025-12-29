@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { PropertyData } from '../types.ts';
+import { PropertyData } from '../types';
 
 interface Props {
   property: PropertyData;

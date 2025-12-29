@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { PropertyData } from '../types.ts';
+import { PropertyData } from '../types';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 interface Props {
