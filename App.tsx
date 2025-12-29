@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import DashboardScreen from './screens/DashboardScreen';
-import PricingEngineScreen from './screens/PricingEngineScreen';
-import CompetitorIntelligenceScreen from './screens/CompetitorIntelligenceScreen';
-import OccupancyStrategyScreen from './screens/OccupancyStrategyScreen';
-import { Screen, PropertyData } from './types';
+import Navbar from './components/Navbar.tsx';
+import DashboardScreen from './screens/DashboardScreen.tsx';
+import PricingEngineScreen from './screens/PricingEngineScreen.tsx';
+import CompetitorIntelligenceScreen from './screens/CompetitorIntelligenceScreen.tsx';
+import OccupancyStrategyScreen from './screens/OccupancyStrategyScreen.tsx';
+import { Screen, PropertyData } from './types.ts';
 
 const INITIAL_PROPERTY: PropertyData = {
   id: '1',
